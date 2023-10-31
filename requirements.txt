@@ -1,0 +1,17 @@
+numpy
+pandas
+xarray
+
+opencv-python
+matplotlib
+
+pytorch
+pytorch-lightning
+wandb
+
+cdsapi
+ecmwf-api-client
+
+cfgrib
+
+git+git://github.com/KIT-IAI/pyWATTS@master#egg=pywatts
