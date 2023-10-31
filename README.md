@@ -3,8 +3,6 @@
 This repository contains the Python implementation of the results presented in the following paper:
 >[O. Neumann](mailto:oliver.neumann@kit.edu), M. Turowski, V. Hagenmeyer, R. Mikut, and N. Ludwig, 2023, "Using Weather Data in Energy Time Series Forecasting: The Benefit of Input Data Transformations," in Energy Informatics.
 
-Available at [arXiv](https://arxiv.org/abs/2111.09128) or [KIT Scientific Publishing](https://www.ksp.kit.edu/site/books/e/10.5445/KSP/1000138532/).
-
 ## Abstract
 
 Renewable energy systems depend on the weather, and weather information, thus, plays a crucial role in forecasting time series within such renewable energy systems. However, while weather data are commonly used to improve forecast accuracy, it still has to be determined in which input shape this weather data benefits the forecasting models the most. 
