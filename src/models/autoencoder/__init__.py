@@ -1,0 +1,3 @@
+from src.models.autoencoder.base_autoencoder import BaseAutoencoder
+from src.models.autoencoder.cnn_autoencoder import CNNAutoencoder
+from src.models.autoencoder.fcn_autoencoder import FCNAutoencoder

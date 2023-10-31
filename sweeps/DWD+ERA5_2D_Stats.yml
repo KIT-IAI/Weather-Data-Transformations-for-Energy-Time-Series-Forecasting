@@ -1,0 +1,61 @@
+method: grid
+parameters:
+  calendar_architecture:
+    value: flatten
+  energy_architecture:
+    value: cnn
+  energy_class:
+    distribution: categorical
+    values:
+      - load
+      - solar
+      - wind
+  energy_data_representation:
+    value: naive
+  energy_lag_features:
+    value: 168
+  forecast_freq:
+    value: 1
+  forecast_horizon:
+    value: 24
+  model:
+    value: dnn
+  prediction_horizon:
+    value: 24
+  seed:
+    distribution: categorical
+    values:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+  tso_target:
+    value: transnetbw
+  weather_architecture:
+    value: fcn
+  weather_data_representation:
+    distribution: categorical
+    values:
+      - stats_set=small
+      - stats_set=medium
+      - stats_set=large
+      - stats_set=small;splits=3x3
+      - stats_set=medium;splits=3x3
+      - stats_set=large;splits=3x3
+  weather_freq:
+    value: 1
+  weather_source:
+    distribution: categorical
+    values:
+      - era5_25
+      - dwd_nearest
+      - dwd_linear
+      - dwd_cubic
+  weather_variable:
+    value: default
+program: run.py

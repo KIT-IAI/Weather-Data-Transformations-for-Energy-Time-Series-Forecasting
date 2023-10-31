@@ -1,0 +1,55 @@
+method: grid
+parameters:
+  calendar_architecture:
+    value: none
+  energy_architecture:
+    value: none
+  energy_class:
+    distribution: categorical
+    values:
+      - load
+      - solar
+      - wind
+  energy_data_representation:
+    value: naive
+  energy_lag_features:
+    value: 168
+  forecast_freq:
+    value: 1
+  forecast_horizon:
+    value: 24
+  model:
+    distribution: categorical
+    values:
+      - lr
+      - rf
+  prediction_horizon:
+    value: 24
+  seed:
+    distribution: categorical
+    values:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+  tso_target:
+    value: transnetbw
+  weather_architecture:
+    value: none
+  weather_data_representation:
+    value: naive
+  weather_freq:
+    value: 1
+  weather_source:
+    distribution: categorical
+    values:
+      - dwd
+      - era5_25
+  weather_variable:
+    value: default
+program: run.py
